@@ -1,0 +1,7 @@
+.carousel-inner{
+    width: 60%;
+}
+
+.cartas{
+    display: flex;
+}

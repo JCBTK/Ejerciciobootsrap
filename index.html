@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Galaxias</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Wiki</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacto
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Whatsapp</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">E-mail</a></li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar Galaxia</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carruc" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="001.JPG" class="d-block w-100" alt="GALAXY1">
+          </div>
+          <div class="carousel-item">
+            <img src="002.JPG" class="d-block w-100" alt="GALAXY2">
+          </div>
+          <div class="carousel-item">
+            <img src="003.JPG" class="d-block w-100" alt="GALAXY3">
+          </div>
+          <div class="carousel-item active">
+            <img src="004.JPG" class="d-block w-100" alt="GALAXY4">
+          </div>
+          <div class="carousel-item active">
+            <img src="005.JPG" class="d-block w-100" alt="GALAXY5">
+          </div>
+          <div class="carousel-item active">
+            <img src="006.JPG" class="d-block w-100" alt="GALAXY6">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carruc" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previo</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carruc" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+
+      <div>
+        <div class="row">
+          <div class="col-4">
+            <nav id="navbar-example3" class="h-100 flex-column align-items-stretch pe-4 border-end">
+              <nav class="nav nav-pills flex-column">
+                <a class="nav-link" href="#item-1">Que es una Galaxia?</a>
+                <nav class="nav nav-pills flex-column">
+                  <a class="nav-link ms-3 my-1" href="#item-1-1">Clasificacion</a>
+                  <a class="nav-link ms-3 my-1" href="#item-1-2">Galaxias</a>
+                </nav>
+                <a class="nav-link" href="#item-2">Materia Oscura</a>
+              </nav>
+            </nav>
+          </div>
+        
+          <div class="col-8">
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example3" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+              <div id="item-1">
+                <h4>Que es una Galaxia?</h4>
+                <p>Una galaxia (del griego γαλαξίας ‘lácteo’) es un conjunto de estrellas, nubes de gas, planetas, polvo cósmico, materia oscura y energía unidas gravitatoriamente en una estructura más o menos definida. La palabra «galaxia» procede de los griegos, los cuales atribuían el origen de la Vía Láctea a las gotas de leche derramadas en el universo por la diosa Hera mientras alimentaba al infante Hércules.​ La cantidad de estrellas que forman una galaxia es enorme y varía desde las galaxias enanas, con 107, hasta las galaxias gigantes, con 1014 estrellas.[cita requerida] Formando parte de una galaxia existen subestructuras como las nebulosas, los cúmulos estelares y los sistemas estelares múltiples.</p>
+              </div>
+              <div id="item-1-1">
+                <h5>Clasificacion</h5>
+                <p>Históricamente, las galaxias se han clasificado de acuerdo a su forma aparente (morfología visual). Una forma común es la galaxia elíptica que, como lo indica su nombre, tiene el perfil luminoso de una elipse. Las galaxias espirales tienen forma circular pero con estructura de brazos curvos envueltos en polvo. Las galaxias inusuales se llaman galaxias irregulares y son, normalmente, el resultado de perturbaciones provocadas por la atracción gravitacional de galaxias vecinas. Estas interacciones entre galaxias vecinas, que pueden provocar la fusión de galaxias, pueden inducir el intenso nacimiento de estrellas. Finalmente, tenemos las galaxias pequeñas, que carecen de una estructura coherente y también se las llama galaxias irregulares.</p>
+              </div>
+              <div id="item-1-2">
+                <h5>Galaxias</h5>
+                <p>Según estudios publicados en 2016, se estima que existen al menos 2 billones (2 millones de millones) de galaxias en el universo observable, esto es, diez veces más de lo que se creía anteriormente.La mayoría de las galaxias tienen un diámetro entre cien y cien mil parsecs y están usualmente separadas por distancias del orden de un millón de parsecs. El espacio intergaláctico está compuesto por un tenue gas, cuya densidad media no supera un átomo por metro cúbico.[cita requerida] Muchas de las galaxias están dispuestas en una jerarquía de agregados, llamados cúmulos, que a su vez pueden formar agregados más grandes, llamados supercúmulos. Estas estructuras mayores están dispuestas en hojas o en filamentos rodeados de inmensas zonas de vacío en el universo.</p>
+              </div>
+              <div id="item-2">
+                <h4>Materia Oscura</h4>
+                <p>Se especula que la materia oscura constituye el 90 % de la masa en la mayoría de las galaxias. Sin embargo, la naturaleza de este componente no está demostrada, y de momento aparece solo como un recurso teórico para sustentar la estabilidad observada en las galaxias. La materia oscura fue propuesta inicialmente en 1933 por el astrónomo suizo Fritz Zwicky, pues la rotación observada en las galaxias indicaba la presencia de una gran cantidad de materia que no emitía luz. No obstante, existen muchas otras galaxias además de la nuestra. Las estimaciones en torno a su número rondan los 2 billones solamente en el universo observable.3​ El Telescopio Espacial Hubble observó una pequeña porción del espacio durante 12 días y descubrió 10 000 galaxias, de todo los tamaños, formas y colores.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    <div class="cartas">
+        <div class="card" style="width: 15rem;">
+        <img src="004.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Galaxia 1</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Ver + datos</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="005.JPG" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Galaxia 2</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Ver + datos</a>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem;">
+        <img src="006.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Galaxia 3</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Ver + datos</a>
+        </div>
+      </div>
+    </div>
+    
+</body>
+
+</html>
